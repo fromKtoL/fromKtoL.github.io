@@ -110,11 +110,3 @@ footer {
     padding-bottom: 5rem;
 }
 
-
-.row {
-      display: flex;
-      flex-direction: column;
-}
-.img-fluid {
-      width: 100%;
-}
