@@ -119,7 +119,20 @@ const util = (() => {
     };
 
     const timer = () => {
-        let countDownDate = (new Date(document.getElementById('tampilan-waktu').getAttribute('data-waktu').replace(' ', 'T'))).getTime();
+        let countDownDate = (new Date(document.getElementById('tampilan-waktu2').getAttribute('data-waktu2').replace(' ', 'T'))).getTime();
+
+        setInterval(() => {
+            let distance = Math.abs(countDownDate - (new Date()).getTime());
+
+            document.getElementById('hari2').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
+            document.getElementById('jam2').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            document.getElementById('menit2').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            document.getElementById('detik2').innerText = Math.floor((distance % (1000 * 60)) / 1000);
+        }, 1000);
+    };
+
+    const timer2 = () => {
+        let countDownDate2 = (new Date(document.getElementById('tampilan-waktu').getAttribute('data-waktu').replace(' ', 'T'))).getTime();
 
         setInterval(() => {
             let distance = Math.abs(countDownDate - (new Date()).getTime());
