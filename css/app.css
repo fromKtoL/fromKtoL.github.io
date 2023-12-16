@@ -110,12 +110,11 @@ footer {
     padding-bottom: 5rem;
 }
 
-@media only screen and (max-width: 768px) {
-    .row {
+
+.row {
       display: flex;
       flex-direction: column;
-    }
-    .img-fluid {
+}
+.img-fluid {
       width: 100%;
-    }
-  }
+}
