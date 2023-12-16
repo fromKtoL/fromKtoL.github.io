@@ -135,7 +135,7 @@ const util = (() => {
         let countDownDate2 = (new Date(document.getElementById('tampilan-waktu').getAttribute('data-waktu').replace(' ', 'T'))).getTime();
 
         setInterval(() => {
-            let distance = Math.abs(countDownDate - (new Date()).getTime());
+            let distance = Math.abs(countDownDate2 - (new Date()).getTime());
 
             document.getElementById('hari').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
             document.getElementById('jam').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -221,6 +221,7 @@ const util = (() => {
         opacity('welcome');
         document.getElementById('tombol-musik').style.display = 'block';
         timer();
+        timer2();
 
         await confetti({
             origin: { y: 0.8 },
