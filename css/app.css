@@ -15,6 +15,7 @@ body::-webkit-scrollbar {
 }
 
 .font-esthetic {
+    font-family: 'DFVN-Indulge-Script',;
     color: #ffffff !important;
     src: url(./assets/DFVN-Indulge-Script.otf);
 }
