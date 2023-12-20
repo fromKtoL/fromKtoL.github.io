@@ -15,9 +15,9 @@ body::-webkit-scrollbar {
 }
 
 .font-esthetic {
-    font-family: 'Allura-Regular-Kashi.vn', cursive !important;
+    font-family: 'DFVN-Hello-Honey', cursive !important;
     color: #ffffff !important;
-    src: url(./assets/Allura-Regular-Kashi.vn.ttf);
+    src: url(./assets/DFVN-Hello-Honey.otf);
 }
 
 .font-arabic {
