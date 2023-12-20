@@ -14,18 +14,13 @@ body::-webkit-scrollbar {
     display: none !important;
 }
 
-@font-face {
-    font-family: 'DFVN-Indulge-Script';
-    src: url('./assets/DFVN-Indulge-Script.ttf') format('truetype');
-    font-weight: normal; /* Adjust if needed */
-    font-style: normal; /* Adjust if needed */
-  }
+
   
-  .font-esthetic {
-    font-family: 'DFVN-Indulge-Script';
+.font-esthetic {
+    font-family: "Great Vibes", sans-serif;
     color: #ffffff !important;
   }
-
+  
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
     color: #ffffff !important;
