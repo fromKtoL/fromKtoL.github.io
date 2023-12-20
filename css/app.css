@@ -14,11 +14,17 @@ body::-webkit-scrollbar {
     display: none !important;
 }
 
-.font-esthetic {
+@font-face {
+    font-family: 'DFVN-Indulge-Script';
+    src: url('./assets/DFVN-Indulge-Script.ttf') format('truetype');
+    font-weight: normal; /* Adjust if needed */
+    font-style: normal; /* Adjust if needed */
+  }
+  
+  .font-esthetic {
     font-family: 'DFVN-Indulge-Script';
     color: #ffffff !important;
-    src: url(./assets/DFVN-Indulge-Script.ttf);
-}
+  }
 
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
