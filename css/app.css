@@ -15,9 +15,8 @@ body::-webkit-scrollbar {
 }
 
 .font-esthetic {
-    font-family: 'DFVN-Hello-Honey', cursive !important;
     color: #ffffff !important;
-    src: url(./assets/DFVN-Hello-Honey.ttf);
+    src: url(./assets/DFVN-Indulge-Script.otf);
 }
 
 .font-arabic {
