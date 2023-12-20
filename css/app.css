@@ -15,8 +15,9 @@ body::-webkit-scrollbar {
 }
 
 .font-esthetic {
-    font-family: 'Sacramento', cursive !important;
+    font-family: 'Allura-Regular-Kashi.vn', cursive !important;
     color: #ffffff !important;
+    src: url(./assets/Allura-Regular-Kashi.vn.ttf);
 }
 
 .font-arabic {
