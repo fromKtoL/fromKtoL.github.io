@@ -124,10 +124,10 @@ const util = (() => {
         setInterval(() => {
             let distance = Math.abs(countDownDate - (new Date()).getTime());
 
-            document.getElementById('hari2').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
-            document.getElementById('jam2').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            document.getElementById('menit2').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            document.getElementById('detik2').innerText = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById('hari').innerText = Math.floor(distance / (1000 * 60 * 60 * 24));
+            document.getElementById('jam').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            document.getElementById('menit').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            document.getElementById('detik').innerText = Math.floor((distance % (1000 * 60)) / 1000);
         }, 1000);
     };
 
